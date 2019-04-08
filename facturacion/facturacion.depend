@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1553875017 source:/home/patricio/Documents/algoritmos y estructura datos/facturacion/main.cpp
+	<iostream>
+	<string>
+
