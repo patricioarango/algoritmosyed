@@ -1,6 +1,5 @@
-struct Circ{
-    float radio
-} circulo;
 
 
-int setRadio(circulo &circ, float radio);
+int circuloInit(CIRCULO &circulo);
+
+int circuitoSetRadio(float radio);

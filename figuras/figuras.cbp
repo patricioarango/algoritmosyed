@@ -23,6 +23,10 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="cilindro.cpp" />
+		<Unit filename="cilindro.h" />
+		<Unit filename="circulo.cpp" />
+		<Unit filename="circulo.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

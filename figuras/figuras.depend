@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1554569703 source:/home/patricio/Documents/algoritomos/figuras/circulo.cpp
+	"circulo.h"
+	<iostream>
+
+1554576554 /home/patricio/Documents/algoritomos/figuras/circulo.h
+
+1554568427 source:/home/patricio/Documents/algoritomos/figuras/cilindro.cpp
+	"cilindro.h"
+
+1554565905 /home/patricio/Documents/algoritomos/figuras/cilindro.h
+
+1554569606 source:/home/patricio/Documents/algoritomos/figuras/main.cpp
+	<iostream>
+	"circulo.h"
+	"cilindro.h"
+
