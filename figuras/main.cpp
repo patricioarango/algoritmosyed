@@ -1,23 +1,17 @@
 #include <iostream>
- #include "circulo.h"
-#ifndef _CIRCULO_H
-    #define _CIRCULO_H
+#include "circulo.h"
 
-#endif
 
-#ifndef _CILINDRO_H
-    #define _CILINDRO_H
-    #include "cilindro.h"
-#endif
 
 using namespace std;
 
-int menu_elegido;
+
 
 int main()
 {
-    circ circulo;
-    cout << "Elija con quÃ© figura trabajar:" << endl;
+    int menu_elegido;
+    CIRCULO circulo;
+    cout << "Elija con qué figura trabajar:" << endl;
     cout << "1. CIRCULO" << endl;
     cout << "2. CILINDRO" << endl;
     cout << "99. Salir" << endl;
@@ -28,7 +22,7 @@ int main()
         switch(menu_elegido)
         {
             case 1:
-                circuloInit(circ &circulo);
+                circuloInit(circulo);
                 break;
 
             case 2:
@@ -37,7 +31,6 @@ int main()
 
             case 99:
                 break;
-                return 0;
         }
 
     }

@@ -1,7 +1,12 @@
-struct circ{
+#ifndef _CIRCULO_H_
+#define _CIRCULO_H_
+
+typedef struct{
     float radio;
-} CIRCULO;
+}CIRCULO;
 
-int circuloInit(circ CIRCULO);
+void circuloInit(CIRCULO &circ);
 
-int circuitoSetRadio(float radio);
+void circuitoSetRadio(CIRCULO &circ, float radio);
+
+#endif // _CIRCULO_H_
